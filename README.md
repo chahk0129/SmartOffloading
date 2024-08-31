@@ -1,7 +1,7 @@
 Smart Offloading: Beyond RDMA for Disaggregated Memory Databases
 ========================================================================
 
-This includes two implementations of disaggregated memory databases which work in a SmartNIC-based setting and a RDMA-based setting.
+This includes two research prototypes of disaggregated memory databases which work in a SmartNIC-based setting and a RDMA-based setting.
 The system benchmark extends [DBx1000](https://github.com/yxymit/DBx1000), a multi-threaded in-memory DBMS.
 The major changes are as follows:
 * Changed the monolithic architecture of the DBMS to disaggregated memory architecture, which separates compute resources and memory resources.
