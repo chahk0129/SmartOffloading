@@ -17,6 +17,16 @@ The major changes are as follows:
 * `smartnic/`: includes the implementation of SmartNIC-based indexing and concurrency control.
 
 
+
+## Dependencies ##
+
+* Mellanox OFED linux driver of v5.4-3.6.8.1 or higher for RDMA network setup.
+* NVIDIA DOCA software of v.1.5.1 or higher for SmartNIC setup.
+* CMake of v.2.8.5 or higher for compilation.
+* Jemalloc allocator
+* TBB library
+* Hugepage setting
+
 ## Build ##
 
 Each directory has its detailed instructions of how to build in its README file.
